@@ -1,0 +1,579 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+@font-face {
+    font-family: futurak;
+    src: url(../fonts/futurak.ttf);
+}
+.navbar{
+    width: 100%;
+    height: 12vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+}
+.logo{
+    margin: 10px;
+}
+.anker>a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    display: inline-block;
+    justify-content: space-between;
+    padding: 15px ;
+}
+#first{
+    border: 1px solid white;
+    border-radius: 70px;
+}
+#second{
+    border-radius: 80px;
+    background-color: red;
+}
+.cartext{
+    width: 100%;
+    height: 550px;
+    background-color: black;
+}
+.text{
+    width: 100%;
+    height: 30%;
+    font-size: 20px;
+    padding-top: 50px;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+span{
+    font-family:futurak;
+    font-size: 46px;
+}
+.cards{
+    width: 100%;
+    height: 35%;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.card1{
+    width: 270px;
+    height: 150px;
+    border: 1px solid pink;
+    margin: 12px; 
+
+}
+#con1{
+    background-image: url(../images/2.png);
+    background-size: cover;
+}
+#con2{
+    background-image: url(../images/1.png);
+    background-size: cover;
+}
+#cont3{
+    background-image: url(../images/pic22.jpg);
+    background-size: cover;
+}
+.order{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+#ord1>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#ord2>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+#ord3>a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.now{
+    width: 160px;
+    height: 60px;
+    color: white;
+    align-items: center;
+    margin-inline: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 70px;  
+    border: 1px solid white;
+    text-decoration: none;
+}
+.container2{
+    width: 100%;
+    height: 1300px;
+    background-color: rgb(44, 42, 42);
+}
+.div1{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(24, 23, 23);
+    color: white;
+    text-align: center;
+    padding-top: 70px;
+}
+#head{
+    font-size: 50px;
+    font-family: futurak;
+    line-height: 20px;
+   letter-spacing: 2px;
+}
+#heading{
+    font-size: 42px;
+}
+.div2{
+    width: 100%;
+    height: 350px;
+    margin-top: 28px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box1{
+    width: 550px;
+    height: 300px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+h6{
+    color: red;
+    letter-spacing: 8px;
+    line-height: 10px;
+}
+b{
+    font-family: futurak;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#get{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    border-color: white;
+}
+.div3{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box2{
+    width: 550px;
+    height: 300px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+h6{
+    color: red;
+    letter-spacing: 8px;
+    line-height: 10px;
+}
+b{
+    font-family: futurak;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#get{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    border-color: white;
+}
+.div4{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.box3{
+    width: 550px;
+    height: 300px;
+    display: inline-block;
+    font-size: 20px;
+    text-align: left;
+}
+h6{
+    color: red;
+    letter-spacing: 8px;
+    line-height: 10px;
+}
+b{
+    font-family: futurak;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+#get{
+    text-decoration: none;
+    color: white;
+    border: 1px solid black;
+    padding: 15px;
+    border-radius: 25px;
+    background-color: black;
+    border-color: white;
+}
+.container3{
+    width: 100%;
+    height: 1850px;
+    background-color: black;
+}
+.txt{
+    width: 100%;
+    height: 210px;
+}
+#id1{
+    font-family: futurak;
+    font-size: 50px;
+    padding-top: 70px;
+}
+#id2{
+    font-size: 55px ;
+}
+.card2{
+    width: 100%;
+    height: 270px;
+}
+.sec1{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#id3{
+    background-image: url(../images/pic5.webp);
+    background-size: cover;
+}
+#id4{
+    background-image: url(../images/pic6.webp);
+    background-size: cover;
+}
+#id5{
+    background-image: url(../images/pic7.webp);
+    background-size: cover;
+}
+.card3{
+    width: 100%;
+    height: 270px;
+}
+.sec2{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.card4{
+    width: 100%;
+    height: 270px;
+}
+.sec1{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#id3{
+    background-image: url(../images/pic8.webp);
+    background-size: cover;
+}
+#id4{
+    background-image: url(../images/pic9.webp);
+    background-size: cover;
+}
+#id5{
+    background-image: url(../images/pic10.webp);
+    background-size: cover;
+}
+.card5{
+    width: 100%;
+    height: 270px;
+}
+.sec2{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.card6{
+    width: 100%;
+    height: 270px;
+}
+.sec1{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+#id3{
+    background-image: url(../images/pic11.webp);
+    background-size: cover;
+}
+#id4{
+    background-image: url(../images/pic12.webp);
+    background-size: cover;
+}
+#id5{
+    background-image: url(../images/pic13.webp);
+    background-size: cover;
+}
+.card7{
+    width: 100%;
+    height: 270px;
+}
+.sec2{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    margin-left: 10px;
+}
+.container4{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(22, 21, 21);
+}
+.sec3{
+    width: 100%;
+    height: 170px;
+    font-size: 30px;
+    padding-top: 40px;
+}
+h1{
+    font-family: futurak;
+}
+.sec4{
+    width: 100%;
+    height: 350px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sec5{
+    width: 680px;
+    height: 330px;
+    display: inline-block;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+}
+#id6{
+    background-image: url(../images/pic14.webp);
+    background-size: cover;
+}
+#id7{
+    text-align: left;
+}
+#get1{
+    border: 1px solid green;
+    border-radius: 50px;
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    background-color: rgb(22, 138, 22);
+}
+.container5{
+    width: 100%;
+    height: 1030px;
+    background-color: black;
+}
+.sec6{
+    width: 100%;
+    height: 150px;
+    padding-top: 30px;
+}
+#id8{
+    font-size: 50px;
+}
+#id9{
+    font-size: 50px;
+}
+#id10{
+    font-size: 30px;
+}
+.sec7{
+    width: 100%;
+    height: 280px;
+}
+.sec8{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: white;
+}
+#id11{
+    color: black;
+    font-size: 23px;
+}
+.sec9{
+    width: 100%;
+    height: 280px;
+}
+.sec8{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: white;
+}
+#id11{
+    color: black;
+    font-size: 23px;
+}
+.sec10{
+    width: 100%;
+    height: 280px;
+}
+.sec8{
+    width: 350px;
+    height: 250px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 20px;
+    background-color: white;
+}
+#id11{
+    color: black;
+    font-size: 23px;
+}
+.container6{
+    width: 100%;
+    height: 450px;
+    background-color: black;
+}
+.sec11{
+    width: 100%;
+    height: 70px;
+    font-size: 40px;
+    padding-top: 22px;
+}
+.sec12{
+    width: 100%;
+    height: 350px;
+    display: inline-block;
+    justify-content: space-between;
+}
+.sec13{
+    width: 270px;
+    height: 270px;
+    display: inline-block;
+    justify-content: space-between;
+    margin-left: 6px;
+}
+#id12{
+    background-image: url(../images/pic18.webp);
+    background-size: cover;
+}
+
+#id13{
+    background-image: url(../images/pic19.webp);
+    background-size: cover;
+}
+#id14{
+    background-image: url(../images/pic20.webp);
+    background-size: cover;
+}
+#id15{
+    background-image: url(../images/pic21.webp);
+    background-size: cover;
+}
+#id16{
+    background-image: url(../images/pic17.webp);
+    background-size: cover;
+}
+footer{
+    width: 100%;
+    height: 450px;
+    background-color: rgb(31, 29, 29);
+}
+.sec14{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    text-align: left;
+    margin-left: 15px;
+}
+.sec15{
+    width: 200px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 15px;
+    text-align: left;
+}
+.sec16{
+    width: 250px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 15px;
+    text-align: left;
+}
+.sec17{
+    width: 300px;
+    height: 400px;
+    display: inline-block;
+    justify-content: center;
+    margin-left: 15px;
+    text-align: left;
+}
+.sec18{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    padding-top: 5px;
+    background-color: black;
+    text-align: center;
+}
+.sec19{
+    width: 150px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 12px;
+    color: white;
+    padding-top: 5px;
+    background-color: black;
+    text-align: center;
+}
+.sec20{
+    width: 100%;
+    height: 50px;
+    border: 1px solid white;
+    background-color: rgb(31, 29, 29);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.sec21{
+    width: 230px;
+    height: 30px;
+    margin-left: 1050px;
+    padding-top: 8px;
+    display: flex;
+}
